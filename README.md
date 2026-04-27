@@ -1,31 +1,27 @@
-# 📘 Interactive FAQ Webpage
+# ASSIGNMENT 4
+- Objective: Create an interactive FAQ-style webpage where answers toggle visibility when questions are clicked. Use HTML, CSS, JavaScript, and Object-Oriented Programming principles.
 
-An interactive, responsive FAQ-style webpage built using **Object-Oriented JavaScript** and semantic HTML. This project demonstrates dynamic content rendering and state management through clean, modular code.
+**📁 Files to be included**
+- index.html — Markup structure of the Q&A page
+- style.css — Styling for layout, visibility, and animations
+- script.js — JavaScript logic with OOP and interactivity
+- README.md —  Explanation and usage instructions.
 
-## 🚀 Project Overview
+# ✨ Features:
+- Semantic HTML using <details> and <summary>
+- Smooth expand/collapse animations
+- Visual cues (+ / −) to indicate toggle state
+- Object-Oriented JavaScript (QATerm class) to manage FAQ items dynamically
 
-The goal of this project was to create a user-friendly "Frequently Asked Questions" interface where answers toggle visibility upon interaction. Instead of hardcoding every item, the content is managed dynamically via a JavaScript class structure.
+# 🛠 Technologies Used
+1. HTML
+2. CSS 
+3. JavaScript (OOP, DOM Manipulation)
 
-### Key Features
-* **OOP Implementation:** Uses a `QAItem` class to encapsulate question-answer data and the rendering logic.
-* **Dynamic Rendering:** FAQ items are stored in a centralized array and rendered to the DOM automatically upon page load.
-* **Semantic HTML:** Utilizes `<details>` and `<summary>` tags for native accessibility and SEO-friendly structure.
-* **Interactive UI:** Custom CSS animations and visual cues (+ / −) indicate the current toggle state for a better user experience.
-* **Responsive Design:** Fully styled with a clean "Edu NSW ACT Cursive" aesthetic and mobile-friendly layouts.
+# Requirements
+1. A modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari)
+2. No installation of external libraries or frameworks is required.
 
-## 🛠️ Tech Stack
-* **HTML5:** Structured with semantic elements.
-* **CSS3:** Transitions, pseudo-elements (`::before`), and custom typography.
-* **JavaScript (ES6):** Class-based architecture and DOM manipulation.
-
-## 📁 Project Structure
-```text
-├── index.html   # Main structure and container for the FAQ
-├── style.css    # Custom styling, animations, and typography
-├── script.js    # OOP logic and dynamic content generation
-└── README.md    # Documentation
- 🔧 How to Run
-1. Clone the repository:
-git clone [https://github.com/himanidhawan4/assignment-4.git](https://github.com/himanidhawan4/assignment-4.git)
-2. Navigate to the directory and open index.html in any modern web browser.
-3. Click on any question to expand or collapse the answer smoothly.
+# Run the Project
+- Locate the file index.html.
+- Double-click on it, or right-click → Open with → Your Browser (e.g., Chrome, Firefox, Edge).
