@@ -1,0 +1,54 @@
+ header {
+
+     font-family: "Edu NSW ACT Cursive", cursive;
+     font-weight: bold;
+     font-style: shadow;
+     text-align: center;
+     text-decoration: underline;
+ }
+
+ body {
+     font-family: "Edu NSW ACT Cursive", cursive;
+     background-color: #e6f0ff;
+     padding: 20px;
+ }
+
+ h1 {
+     text-align: center;
+     color: #333;
+ }
+
+ details {
+     margin: 10px 0;
+     padding: 10px;
+     background: white;
+     border-radius: 5px;
+     border: 1px solid #ccc;
+     transition: all 0.3s ease;
+ }
+
+ summary {
+     font-weight: bold;
+     cursor: pointer;
+     list-style: none;
+     position: relative;
+     padding-left: 20px;
+     text-decoration: underline;
+ }
+
+ summary::before {
+     content: "+";
+     position: absolute;
+     left: 0;
+     font-size: 18px;
+     transition: transform 0.3s ease;
+ }
+
+ details[open] summary::before {
+     content: "-";
+ }
+
+ details p {
+     margin: 10px 0 0;
+     color: #7b104b;
+ }
